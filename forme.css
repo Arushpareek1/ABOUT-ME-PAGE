@@ -108,3 +108,14 @@
                     font-size: 60px;
                     text-shadow: 5px 5px 5px #8b949e;
              }
+             .site{
+                font-size: 40px;
+                font-weight: bold;   
+             }
+             .edu{
+                color: #0a66c2;
+                transition: color 0.15s;
+             }
+             .edu:hover{
+                color: #4a9aeb;
+             }
