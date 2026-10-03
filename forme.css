@@ -1,0 +1,110 @@
+
+            body{
+                background-color: rgb(21, 20, 20);
+                color: beige;
+            }
+            .name{
+                font-size: 60px;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 20px; 
+                text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.8);
+            }
+            .about{
+                width:1500px;
+                font-size: 40px;
+                
+            }
+            .about1{
+                font-size: 50px;
+
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                padding: 40px;
+                }
+
+            .btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                padding: 14px 32px;
+                border: 2px solid transparent;
+                border-radius: 12px;
+                font-size: 1rem;
+                font-weight: 600;
+                text-decoration: none;
+                color: #fff;
+                cursor: pointer;
+                transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+                }
+
+            .btn:hover {
+                transform: translateY(-4px) scale(1.03);
+                }
+
+            .btn:active {
+                transform: translateY(0) scale(0.97);
+                }
+
+                /* LinkedIn */
+            .btn-linkedin {
+                background: #1e293b;
+                border-color: #0a66c2;
+                }
+            .btn-linkedin:hover {
+                background: #0a66c2;
+                box-shadow: 0 8px 24px rgba(10, 102, 194, 0.4);
+                }
+
+                /* LeetCode */
+            .btn-leetcode {
+                background: #1e293b;
+                border-color: #ffa116;
+                }
+            .btn-leetcode:hover {
+                background: #ffa116;
+                color: #000;
+                box-shadow: 0 8px 24px rgba(255, 161, 22, 0.4);
+                }
+
+                /* GitHub */
+            .btn-github {
+                background: #1e293b;
+                border-color: #8b949e;
+                }
+            .btn-github:hover {
+                background: #8b949e;
+                color: #000;
+                box-shadow: 0 8px 24px rgba(139, 148, 158, 0.4);
+                }
+
+                /* Instagram */
+            .btn-instagram {
+                background: #1e293b;
+                border-color: #e1306c;
+                }
+            .btn-instagram:hover {
+                background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+                box-shadow: 0 8px 24px rgba(225, 48, 108, 0.4);
+                }
+
+                /* Fun Activity */
+            .btn-fun {
+                background: #1e293b;
+                border-color: #a855f7;
+                }
+            .btn-fun:hover {
+                background: linear-gradient(135deg, #a855f7, #ec4899);
+                box-shadow: 0 8px 24px rgba(168, 85, 247, 0.4);
+                }
+            .info{
+                    color: rgb(213, 61, 61);
+                    background-color: #4c067e;
+                    text-align: center;
+                    font-size: 60px;
+                    text-shadow: 5px 5px 5px #8b949e;
+             }
