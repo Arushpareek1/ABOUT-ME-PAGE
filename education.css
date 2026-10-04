@@ -24,3 +24,11 @@ body{
     color: rgb(53, 69, 214);
     text-shadow: 3px 3px 3px rgba(255,255,255,0.25);
 }
+.poem{
+    font-size: 50px;
+    color: #0a66c2;
+    transition: color 0.15s;
+}
+.poem:hover{
+    color: #4a9aeb;
+}
